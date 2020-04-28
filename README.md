@@ -157,7 +157,6 @@ To Update Project κάνει pull απο το repository μας όχι απο τ
 ![conflict2](images/conflict2.png)
 ![conflict1](images/conflict1.png)
 
-## Source Tree
 
 ## Git
 Για όσους θέλουν να μάθουν git (ευκαιρία είναι) τα βήματα πάνω θα γίνονται με command line. https://www.atlassian.com/git
