@@ -77,7 +77,7 @@ from https://www.atlassian.com/git
 ![stpull1](images/stpull1.png)
 
 ## Pull στο γενικό
-Για να κάνουμε Push στο γενικό repository (από εκεί που κάναμε fork). Επιλέγουμε settings και βάζουμε το γενικό repository με ένα όνομα δικό μας (συνήθως master) και το λινκ
+Για να πάρουμε την τελευταία έκδοση του κώδικα από το γενικό repository (από εκεί που κάναμε fork), επιλέγουμε settings και βάζουμε το γενικό repository με ένα όνομα δικό μας (συνήθως master) και το λινκ
 
 ![stpullg](images/stpullg.png)
 ![stpullg1](images/stpullg1.png)
@@ -86,9 +86,14 @@ from https://www.atlassian.com/git
 ![stpullg4](images/stpullg4.png)
 
 ## Push από γενικό
-Εφόσον βάλαμε το γενικό από τα settings μπορούμε να πάρουμε την τελευταία έκδοσή του, για να μην μείνει πίσω το δικό μας fork σε εκδόσεις
+Εφόσον βάλαμε το γενικό από τα settings μπορούμε να ανεβάσουμε ένα δικό μας κομμάτι κώδικα στο γενικό
 
 ![stpushg](images/stpushg.png)
+
+## Pull Requests
+Τα pull request γίνονται μέσω web ωστόσο υπάρχει η επιλογή να δημιουργηθεί στο gui
+
+![stpur](images/stpur.png)
 
 ## IDE 
 Πολλά προγράμματα ide προσφέρουν integration με GitHub. Ο παρακάτω τρόπος είναι για προγράμματα JetBrains. Παρόμοια και σε υπόλοιπα
