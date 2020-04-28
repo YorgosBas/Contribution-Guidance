@@ -15,7 +15,7 @@ Here is a basic overview of how Git works:
 
 from https://www.atlassian.com/git
 
-## Πρώτος Τρόπος (GitHub)
+## Πρώτος Τρόπος GitHub
 
 ### 1. Κάνουμε fork το repository του γενικού (μια φορά)
 
@@ -53,7 +53,42 @@ from https://www.atlassian.com/git
 
 ![pullr](images/afterr.png)
 
-## Δεύτερος Τρόπος (Μέσω προγράμματος)
+## Δεύτερος Τρόπος μέσω προγράμματος Source Tree ή IDE
+Καλύπτεται JetBrains και Source Tree, ωστόσο άμα καταλάβετε την φιλοσοφία μπορείται να διαχειριστείται τα πάντα
+
+## Source Tree
+
+## 1. Clone 
+Κάνουμε clone το repository είτε το γενικό είτε το fork μας. Ανάλογα πως δουλεύει κάθε ομάδα
+
+![stclone](images/stclone.png)
+
+## 2. Commit
+Γράφουμε κώδικα και μόλις τελειώσουμε εμφανίζονται οι αλλαγές στο File Status. Πατάμε Stage όσα θέλουμε, γράφουμε ένα μήνυμα και commit
+
+## 3. Push στο fork
+Οι αλλαγές έγιναν τοπικά άρα για να ενημερωθεί το repository στο github πατάμε Push, επιλέγουμε το δικό μας repository (origin), το branch και πατάμε Push
+
+![stpush1](images/stpush1.png)
+
+## Pull από fork
+Αν θέλουμε να πάρουμε κάποιες αλλαγές που έγιναν στο fork κάνουμε Pull
+
+![stpull1](images/stpull1.png)
+
+## Push στο γενικό
+Για να κάνουμε Push στο γενικό repository (από εκεί που κάναμε fork). Επιλέγουμε settings και βάζουμε το γενικό repository με ένα όνομα δικό μας (συνήθως master) και το λινκ
+
+![stpullg](images/stpullg.png)
+![stpullg1](images/stpullg1.png)
+![stpullg2](images/stpullg2.png)
+![stpullg3](images/stpullg3.png)
+![stpullg4](images/stpullg4.png)
+
+## Pull από γενικό
+Εφόσον βάλαμε το γενικό από τα settings μπορούμε να πάρουμε την τελευταία έκδοσή του, για να μην μείνει πίσω το δικό μας fork σε εκδόσεις
+
+![stpushg](images/stpushg.png)
 
 ## IDE 
 Πολλά προγράμματα ide προσφέρουν integration με GitHub. Ο παρακάτω τρόπος είναι για προγράμματα JetBrains. Παρόμοια και σε υπόλοιπα
@@ -64,7 +99,7 @@ from https://www.atlassian.com/git
 ![settings1](images/settings1.png)
 ![login1](images/login1.png)
 
-### 2. Clone Repository
+### 2. Clone
 Εφόσον κάναμε fork το γενικό repository μπορούμε τώρα να το κάνουμε clone και να το έχουμε τοπικά στον υπολογιστή μας
 
 ![GetVCS1](images/GetVCS1.png)
@@ -117,6 +152,10 @@ To Update Project κάνει pull απο το repository μας όχι απο τ
 ![conflict2](images/conflict2.png)
 ![conflict1](images/conflict1.png)
 
+## Source Tree
 
 ## Git
 Για όσους θέλουν να μάθουν git (ευκαιρία είναι) τα βήματα πάνω θα γίνονται με command line. https://www.atlassian.com/git
+
+## Disclaimer
+Η δικιά μας ομάδας δουλεύει με ένα γενικό repository και κάθε άτομο το έχει κάνει fork. Ενδεχομένος να μην χρειαστεί να κάνετε fork και να δουλεύετε μόνο με ένα γενικό και άρα όλες οι αλλαγές να γίνονται εκεί. 
