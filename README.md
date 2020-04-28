@@ -76,7 +76,7 @@ from https://www.atlassian.com/git
 
 ![stpull1](images/stpull1.png)
 
-## Push στο γενικό
+## Pull στο γενικό
 Για να κάνουμε Push στο γενικό repository (από εκεί που κάναμε fork). Επιλέγουμε settings και βάζουμε το γενικό repository με ένα όνομα δικό μας (συνήθως master) και το λινκ
 
 ![stpullg](images/stpullg.png)
@@ -85,7 +85,7 @@ from https://www.atlassian.com/git
 ![stpullg3](images/stpullg3.png)
 ![stpullg4](images/stpullg4.png)
 
-## Pull από γενικό
+## Push από γενικό
 Εφόσον βάλαμε το γενικό από τα settings μπορούμε να πάρουμε την τελευταία έκδοσή του, για να μην μείνει πίσω το δικό μας fork σε εκδόσεις
 
 ![stpushg](images/stpushg.png)
