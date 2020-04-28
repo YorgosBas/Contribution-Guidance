@@ -43,26 +43,26 @@
 ## IDE 
 Πολλά προγράμματα ide προσφέρουν integration με GitHub. Ο παρακάτω τρόπος είναι για προγράμματα JetBrains. Παρόμοια και σε υπόλοιπα
 
-### 1.Set-Up
+### 1. Set-Up
 Πηγαίνουμε File -> settings -> version control -> GitHub και βάζουμε τον λογαριασμό μας
 
 ![settings1](images/settings1.png)
 ![login1](images/login1.png)
 
-### 2.Clone Repository
+### 2. Clone Repository
 Εφόσον κάναμε fork το γενικό repository μπορούμε τώρα να το κάνουμε clone και να το έχουμε τοπικά στον υπολογιστή μας
 
 ![GetVCS1](images/GetVCS1.png)
 ![clone1](images/clone1.png)
 
-### 3.Commit
+### 3. Commit
 Γράφουμε κώδικα και όταν τελειώσουμε κάνουμε τοπικά commit, γράφουμε ένα σχόλιο και μας εμφανίζει τον γράφο της συνεισφοράς
 
 ![commit1](images/commit1.png)
 ![commit2](images/commit2.png)
 ![overview1](images/overview1.png)
 
-### 4.Push
+### 4. Push
 Οι αλλαγές όπως είπαμε έγιναν τοπικά. Για να ανεβούν στο github πηγαίνουμε VCS -> VCS operations -> push
 
 ![push1](images/push1.png)
@@ -70,7 +70,7 @@
 ![push3](images/push3.png)
 ![merge1](images/merge1.png)
 
-### Επιτυχία
+### 5. Επιτυχία
 Αν ανανεώσουμε το github repository θα υπάρχουν οι αλλαγές. Τώρα είτε ακολουθούμε βήμα τρία απο τον πρώτο για Pull request είτε απο το IDE επιλέγουμε
 
 VCS -> Git -> Create Pull Request και επιλέγουμε το repository που θέλουμε να κάνουμε
@@ -84,8 +84,8 @@ VCS -> Git -> Create Pull Request και επιλέγουμε το repository π
 ### 1. Pull από το γενικό 
 Αρχικά παίρνουμε τις αλλαγές που έκαναν κάποιοι developers από το γενικό στο δικό μας κώδικα τοπικά
 
-![pullfromgeneral](images/pullfromgeneral.png)
 ![pullfromgeneral1](images/pullfromgeneral1.png)
+![pullfromgeneral](images/pullfromgeneral.png)
 
 ### 2. Push στο δικό μας
 Ακολουθούμε βήμα 4 απο τον δεύτερο τρόπο κάνοντας push στο δικό μας repository
