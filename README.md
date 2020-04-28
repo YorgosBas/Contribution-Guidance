@@ -1,5 +1,20 @@
 # Contribution Guidance
 
+## How Git works
+Here is a basic overview of how Git works:
+
+* Create a "repository" (project) with a git hosting tool (like Bitbucket)
+* Copy (or clone) the repository to your local machine
+* Add a file to your local repo and "commit" (save) the changes
+* "Push" your changes to your master branch
+* Make a change to your file with a git hosting tool and commit
+* "Pull" the changes to your local machine
+* Create a "branch" (version), make a change, commit the change
+* Open a "pull request" (propose changes to the master branch)
+* "Merge" your branch to the master branch
+
+from https://www.atlassian.com/git
+
 ## Πρώτος Τρόπος (GitHub)
 
 ### 1. Κάνουμε fork το repository του γενικού (μια φορά)
