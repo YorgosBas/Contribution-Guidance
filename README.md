@@ -2,7 +2,7 @@
 
 ### 1. Κάνουμε fork το repository του γενικού (μια φορά)
 
-![fork](imagesforkkk.png)
+![fork](images/forkkk.png)
 
 ### 2. Ανεβάζουμε τον κώδικά μας στο fork (έχει το όνομά μας μπροστά)
 Κάνουμε upload files και πατάμε commit. Τώρα ο κώδικας αυτός είναι μόνο στο δικό μας repository. Για να πάει στο γενικό repository κάνουμε το 3
