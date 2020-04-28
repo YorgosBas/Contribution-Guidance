@@ -1,5 +1,7 @@
 # Contribution Guidance
 
+## Πρώτος Τρόπος (GitHub)
+
 ### 1. Κάνουμε fork το repository του γενικού (μια φορά)
 
 ![fork](images/forkkk.png)
