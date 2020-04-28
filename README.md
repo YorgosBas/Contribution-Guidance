@@ -104,4 +104,4 @@ To Update Project κάνει pull απο το repository μας όχι απο τ
 
 
 ## Git
-Για όσους θέλουν να μάθουν git (ευκαιρία είναι) δείτε online tutorials. Γενικά τα βήματα πάνω θα γίνονται με command line.
+Για όσους θέλουν να μάθουν git (ευκαιρία είναι) τα βήματα πάνω θα γίνονται με command line. https://www.atlassian.com/git
